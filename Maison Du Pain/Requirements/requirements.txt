@@ -1,27 +1,34 @@
-Esta guia son los pasos para poder ejecutar el proyecto Panaderia en Python, se debe tener instalado Python en la maquina, se debe tener instalado el modulo rich, para instalarlo se debe seguir los siguientes pasos:
+# 🥖 Maison du Pain - Sistema de Gestión de Panadería
+# Requirements para la instalación de dependencias
 
-1. 
-    ```pip-requirements
-    rich>=13.0.0
-    ```
+# Dependencia principal para la interfaz en terminal
+rich>=13.0.0
 
-2. **Abre una terminal o línea de comandos**.
+# Dependencias adicionales para funcionalidades avanzadas
+# (opcionales, pero recomendadas para mejor experiencia)
 
-3. **Navega al directorio donde está el archivo `requirements.txt`**:
-    ```bash
-    cd /e:/Usuario/Downloads/exampole-20250325T002933Z-001/exampole/
-    ```
+# Para manejo de fechas y zonas horarias
+pytz>=2023.3
 
-4. **Instala las dependencias usando `pip`**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+# Para exportación de datos a CSV
+pandas>=2.0.0
 
-5. **Verifica que la librería `rich` se haya instalado correctamente**:
-    ```bash
-    pip show rich
-    ```
+# Para gráficos en reportes (opcional)
+matplotlib>=3.7.0
 
-Fuente: [rich](https://pypi.org/project/rich/)
-Fin de la guia.
-## Ejecutar el proyecto
+# Para encriptación de datos sensibles (opcional)
+cryptography>=41.0.0
+
+# Instrucciones de instalación:
+# 1. Abrir una terminal o línea de comandos
+# 2. Navegar al directorio del proyecto
+# 3. Ejecutar: pip install -r Requirements/requirements.txt
+# 4. Para instalación mínima: pip install rich
+# 5. Para instalación completa: pip install -r Requirements/requirements.txt
+
+# Verificación de instalación:
+# python -c "import rich; print('✅ Rich instalado correctamente')"
+# python -c "import pandas; print('✅ Pandas instalado correctamente')"
+
+# Versión mínima de Python requerida: 3.6+
+# Versión recomendada: 3.8+

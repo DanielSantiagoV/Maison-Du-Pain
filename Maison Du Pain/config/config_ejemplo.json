@@ -1,0 +1,32 @@
+{
+    "sistema": {
+        "nombre_empresa": "Maison du Pain",
+        "version": "2.0.0",
+        "idioma": "es",
+        "zona_horaria": "America/Bogota"
+    },
+    "inventario": {
+        "stock_minimo": 5,
+        "stock_critico": 2,
+        "alertas_automaticas": true,
+        "respaldo_automatico": true,
+        "dias_retener_respaldos": 30
+    },
+    "ventas": {
+        "moneda": "COP",
+        "decimales": 2,
+        "impuestos": 0.19,
+        "descuento_maximo": 0.15
+    },
+    "interfaz": {
+        "colores": true,
+        "emojis": true,
+        "tablas_detalladas": true,
+        "confirmaciones": true
+    },
+    "reportes": {
+        "exportar_automatico": false,
+        "formato_exportacion": "json",
+        "incluir_detalles": true
+    }
+} 

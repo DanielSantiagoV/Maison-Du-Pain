@@ -1,180 +1,207 @@
-# 🥖 Maison du Pain - Sistema de Gestión de Panadería
+# 🥖 Maison du Pain - Sistema de Gestión de Panadería v2.0.0
 
-Sistema desarrollado en Python para administrar el inventario y pedidos de la panadería Maison du Pain, asegurando un control eficiente de productos y ventas.
+<p align="center"> 
+  <img src="https://media.tenor.com/fWD5SZjcqHwAAAAi/cooking-nasogg.gif" width="300"/> 
+</p>
 
-## 🌟 Características Principales
+<p align="center"> 
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Rich-13.0+-green?style=for-the-badge&logo=python&logoColor=white" alt="Rich">
+  <img src="https://img.shields.io/badge/Version-2.0.0-orange?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License">
+</p>
 
-### 📦 Gestión de Productos
-- 📌 Registro completo de productos de panadería (panes, pasteles, postres, etc.).
-- 📂 Almacenamiento de información detallada:
-  - 🏷️ Nombre del producto
-  - 🏗️ Categoría (pan, pastel, postre)
-  - 📝 Descripción
-  - 🏭 Proveedor
-  - 📦 Cantidad en stock
-  - 💰 Precios de venta y compra
-- 🔢 Generación automática de códigos de producto basados en categoría (PN-001, PS-001, PT-001).
-- ⚙️ Funcionalidades:
-  - ➕ Agregar, ✏️ editar y ❌ eliminar productos.
-  - 📋 Listado detallado de productos registrados.
+<p align="center">
+  <strong>Sistema avanzado de gestión para panaderías con reportes, configuración personalizable y respaldos automáticos</strong>
+</p>
 
-### 📝 Gestión de Pedidos
-- 🛍️ Creación y administración de pedidos de clientes.
-- 📄 Registro detallado de productos en cada pedido:
-  - 🔢 Cantidad
-  - 💲 Precio por unidad
-  - #️⃣ Número de línea
-- 🔄 Funcionalidades completas de edición y eliminación de pedidos.
-- 🧮 Cálculo automático de totales en cada compra.
+## 🌟 Nuevas Características v2.0.0
 
-### 📊 Inventario Automatizado
-- 🔄 Actualización automática del stock al registrar pedidos.
-- 📈 Control de inventario en tiempo real.
-- ⚠️ Sistema de alertas para productos con stock bajo (menos de 5 unidades).
-- 🔙 Devolución automática de stock al eliminar pedidos.
+### 🆕 Funcionalidades Principales
+- 📊 **Sistema de Reportes Avanzado**: Análisis detallado de ventas, inventario y rendimiento financiero
+- ⚙️ **Configuración Personalizable**: Ajustes de empresa, inventario, ventas e interfaz
+- 💾 **Respaldo Automático**: Sistema de respaldos con limpieza automática
+- 📈 **Dashboard Rápido**: Vista general del negocio con alertas en tiempo real
+- 🔍 **Validación Mejorada**: Verificación de datos y reparación automática
+- 📋 **Exportación de Datos**: Reportes en JSON y CSV
+- 📝 **Logs de Auditoría**: Registro detallado de todas las operaciones
 
-### 🔍 Consultas y Búsquedas
-- 🔎 Búsqueda flexible de productos:
-  - 🔤 Por nombre
-  - 🏷️ Por categoría
-  - 🔢 Por código
-- 📑 Filtrado de pedidos:
-  - #️⃣ Por código de pedido
-  - 🛒 Por productos incluidos
-- 📊 Visualización detallada de información.
+### 🔧 Mejoras Técnicas
+- 🛡️ **Manejo de Errores Robusto**: Validación y recuperación de datos corruptos
+- 🎨 **Interfaz Mejorada**: Más colores, emojis y tablas detalladas
+- ⚡ **Rendimiento Optimizado**: Carga y guardado más eficiente
+- 🔄 **Persistencia de Datos**: Estructura de archivos mejorada
+- 📱 **Compatibilidad**: Funciona en Windows, macOS y Linux
 
-### 💾 Manejo de Archivos y Persistencia
-- 🗂️ Almacenamiento de datos en formato JSON.
-- 📂 Estructura organizada de archivos:
-  - `📜 datos_panaderia.json`: Información de productos.
-  - `📜 pedidos.json`: Registro de pedidos.
-- ♻️ Persistencia de datos entre sesiones.
-- ✅ Manejo de errores y validaciones.
+## 🚀 Características Principales
 
-### 👥 Interfaz de Usuario
-- 🏠 Menús intuitivos y organizados.
-- ✅ Confirmaciones para acciones críticas.
-- ℹ️ Mensajes informativos claros.
-- 📊 Tablas formateadas para mejor visualización.
-- 🎨 Uso de colores y emojis para mejor experiencia.
+### 📦 Gestión de Productos Avanzada
+- 📌 **Registro Completo**: Productos con códigos únicos por categoría
+- 🏷️ **Información Detallada**: Nombre, categoría, descripción, proveedor, stock, precios
+- 🔢 **Códigos Automáticos**: Generación inteligente (PAN-001, PT-001, PS-001)
+- ⚙️ **Operaciones CRUD**: Agregar, editar, eliminar y buscar productos
+- 📊 **Análisis de Stock**: Alertas automáticas para productos con stock bajo
+- 💰 **Gestión de Precios**: Precios de venta y compra con márgenes
+
+### 📝 Gestión de Pedidos Mejorada
+- 🛍️ **Creación Inteligente**: Interfaz mejorada para crear pedidos
+- 📄 **Detalles Completos**: Líneas de pedido con cantidades y precios
+- 🔄 **Edición Flexible**: Modificar pedidos existentes
+- 🧮 **Cálculos Automáticos**: Totales, subtotales e impuestos
+- 📊 **Historial Completo**: Registro de todos los pedidos
+- 🔙 **Devolución de Stock**: Actualización automática al eliminar pedidos
+
+### 📊 Sistema de Reportes (NUEVO)
+- 📈 **Reporte de Ventas**: Análisis detallado por fecha y período
+- 📦 **Análisis de Inventario**: Estado del stock y valor del inventario
+- 🏆 **Productos Más Vendidos**: Ranking de productos por ventas
+- 💰 **Análisis Financiero**: Márgenes, ganancias y costos
+- 📅 **Reportes por Período**: Filtros por días, semanas, meses
+- 📋 **Exportación**: Reportes en JSON y CSV
+
+### ⚙️ Configuración del Sistema (NUEVO)
+- 🏢 **Configuración de Empresa**: Nombre, idioma, zona horaria
+- 📦 **Configuración de Inventario**: Stock mínimo, alertas, respaldos
+- 💰 **Configuración de Ventas**: Moneda, impuestos, descuentos
+- 🎨 **Configuración de Interfaz**: Colores, emojis, confirmaciones
+- 📊 **Configuración de Reportes**: Exportación automática y formatos
+
+### 💾 Sistema de Respaldo (NUEVO)
+- 🔄 **Respaldo Automático**: Antes de cada guardado
+- 📅 **Limpieza Automática**: Eliminación de respaldos antiguos
+- 🛡️ **Recuperación**: Restauración desde respaldos
+- 📁 **Organización**: Estructura de directorios mejorada
+
+### 🔍 Validación y Seguridad (MEJORADO)
+- ✅ **Validación de Datos**: Verificación de tipos y rangos
+- 🔧 **Reparación Automática**: Corrección de datos corruptos
+- 📝 **Logs de Auditoría**: Registro de todas las operaciones
+- 🛡️ **Manejo de Errores**: Recuperación graceful de fallos
 
 ## 🛠️ Tecnologías Utilizadas
-- 🐍 **Python 3**
-- 📄 **JSON** para almacenamiento de datos.
-- 🎨 **Rich** para mejorar la visualización en la terminal.
 
-## 📋 Requisitos
-- 🖥️ Python 3.6 o superior.
-- 📦 Instalar dependencias con:
-  ```sh
-  pip install rich
+### Core
+- 🐍 **Python 3.8+**: Lenguaje principal
+- 📄 **JSON**: Almacenamiento de datos
+- 🎨 **Rich**: Interfaz en terminal mejorada
 
+### Dependencias Opcionales
+- 📊 **Pandas**: Exportación a CSV y análisis de datos
+- 🌍 **Pytz**: Manejo de zonas horarias
+- 📈 **Matplotlib**: Gráficos en reportes
+- 🔐 **Cryptography**: Encriptación de datos sensibles
 
-## 🚀 Instalación y Uso
+## 📋 Requisitos del Sistema
 
-### Esta guia son los pasos para poder ejecutar el proyecto Panaderia en Python, se debe tener instalado Python en la maquina, se debe tener instalado el modulo rich, para instalarlo se debe seguir los siguientes pasos:
+### Mínimos
+- 🖥️ **Python 3.6+** (recomendado 3.8+)
+- 💾 **100 MB** de espacio en disco
+- 🧠 **512 MB** de RAM
 
-1. 
-    ```pip-requirements
-    rich>=13.0.0
-    ```
+### Recomendados
+- 🖥️ **Python 3.8+**
+- 💾 **500 MB** de espacio en disco
+- 🧠 **1 GB** de RAM
+- 💻 **Terminal con soporte de colores**
 
-2. **Abre una terminal o línea de comandos**.
+## 🚀 Instalación y Configuración
 
-3. **Navega al directorio donde está el archivo `requirements.txt`**:
-    ```bash
-    cd /e:/Usuario/Downloads/exampole-20250325T002933Z-001/exampole/
-    ```
-
-4. **Instala las dependencias usando `pip`**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-5. **Verifica que la librería `rich` se haya instalado correctamente**:
-    ```bash
-    pip show rich
-    ```
-
-Fuente: [rich](https://pypi.org/project/rich/)
-Fin de la guia.
-## Ejecutar el proyecto
-
-
-## 📂 Estructura del Proyecto
-
-```
-maison-du-pain/
-│
-├── 📁 modulos/                 # Módulos principales
-│   ├── gestion_productos.py    # Gestión de productos
-│   ├── gestion_pedidos.py      # Gestión de pedidos
-│   └── gestion_archivos.py     # Manejo de archivos
-│
-├── 📁 datos/                   # Almacenamiento de datos
-│   ├── datos_panaderia.json    # Datos de productos
-│   └── pedidos.json            # Registro de pedidos
-│
-├── 📄 main.py                  # Punto de entrada principal
-└── 📄 README.md                # Documentación
+### 1. Clonar el Repositorio
+```bash
+git clone https://github.com/tu-usuario/Maison-du-Pain.git
+cd Maison-du-Pain
 ```
 
-## 🛠️ Requisitos
+### 2. Instalar Dependencias
 
-- 🐍 Python 3.6+
-- 📚 Bibliotecas:
-  - 🎨 rich: Para mejorar la visualización en terminal
-  - 📝 json: Para manejo de archivos JSON (incluido en Python)
-  - 📅 datetime: Para manejo de fechas (incluido en Python)
-  - 💻 os: Para operaciones del sistema (incluido en Python)
-
-## 📦 Instalación
-
-1. 📥 Clona este repositorio:
-   ```
-   git clone https://github.com/tu-usuario/Maison-du-Pain.git
-   ```
-
-2. 📂 Navega al directorio del proyecto:
-   ```
-   cd Maison-du-Pain
-   ```
-
-3. ⚙️ Instala las dependencias:
-   ```
-   pip install rich
-   ```
-
-## 🛠️ Requisitos y Dependencias
-
-### Dependencias Principales
-```pip-requirements
-rich>=13.0.0
+#### Instalación Mínima (Solo funcionalidades básicas)
+```bash
+pip install rich
 ```
 
-### Verificación de la Instalación
-Para verificar que todo está instalado correctamente, puedes ejecutar:
+#### Instalación Completa (Todas las funcionalidades)
+```bash
+pip install -r "Maison Du Pain/Requirements/requirements.txt"
+```
+
+### 3. Verificar la Instalación
 ```bash
 python -c "import rich; print('✅ Rich instalado correctamente')"
+python -c "import pandas; print('✅ Pandas instalado correctamente')"
 ```
 
-## 🚀 Uso
-
-Para iniciar el sistema, ejecuta:
-
-```
+### 4. Ejecutar el Sistema
+```bash
+cd "Maison Du Pain"
 python main.py
 ```
 
-## 🗂️ Almacenamiento de Datos
+## 📂 Estructura del Proyecto v2.0.0
 
-Los datos se almacenan en formato JSON en los siguientes archivos:
-- `datos_panaderia.json`: Información de productos
-- `pedidos.json`: Registro de pedidos
+```
+Maison-Du-Pain/
+├── 📁 Maison Du Pain/
+│   ├── 📄 main.py                    # Punto de entrada principal
+│   ├── 📁 modulos/                   # Módulos del sistema
+│   │   ├── gestion_archivos.py       # Gestión de archivos y respaldos
+│   │   ├── gestion_productos.py      # Gestión de productos
+│   │   ├── gestion_pedidos.py        # Gestión de pedidos
+│   │   ├── reportes.py              # Sistema de reportes (NUEVO)
+│   │   ├── configuracion.py         # Configuración del sistema (NUEVO)
+│   │   └── utilidades.py            # Funciones auxiliares (NUEVO)
+│   ├── 📁 datos/                     # Almacenamiento de datos
+│   │   ├── datos_panaderia.json      # Datos de productos
+│   │   └── pedidos/                  # Datos de pedidos
+│   │       ├── pedidos.json
+│   │       └── detalles_pedidos.json
+│   ├── 📁 config/                    # Configuración (NUEVO)
+│   │   └── config.json
+│   ├── 📁 backups/                   # Respaldos automáticos (NUEVO)
+│   ├── 📁 logs/                      # Logs de auditoría (NUEVO)
+│   ├── 📁 reportes/                  # Reportes exportados (NUEVO)
+│   └── 📁 Requirements/
+│       └── requirements.txt
+└── 📄 README.md
+```
 
-## 📝 Estructura de Datos JSON
+## 🎯 Uso del Sistema
 
-### 📦 Estructura de Productos
+### Menú Principal
+```
+🏠 MENÚ PRINCIPAL
+1️⃣ 📦 Gestión de Productos
+2️⃣ 📋 Gestión de Pedidos
+3️⃣ 📊 Reportes y Estadísticas
+4️⃣ ⚙️ Configuración del Sistema
+5️⃣ 💾 Respaldo de Datos
+6️⃣ 📈 Dashboard Rápido
+7️⃣ 👋 Salir
+```
+
+### Dashboard Rápido
+Vista general del negocio con:
+- 📊 Estadísticas de productos y ventas
+- ⚠️ Alertas de stock bajo
+- 💰 Valor del inventario
+- 📈 Métricas clave
+
+### Sistema de Reportes
+- 📈 **Reporte de Ventas**: Análisis por fecha y período
+- 📦 **Análisis de Inventario**: Estado del stock
+- 🏆 **Productos Más Vendidos**: Ranking de ventas
+- 💰 **Análisis Financiero**: Márgenes y ganancias
+- 📅 **Reportes por Período**: Filtros personalizables
+- 📋 **Exportación**: Formatos JSON y CSV
+
+### Configuración
+- 🏢 **Empresa**: Nombre, idioma, zona horaria
+- 📦 **Inventario**: Stock mínimo, alertas, respaldos
+- 💰 **Ventas**: Moneda, impuestos, descuentos
+- 🎨 **Interfaz**: Colores, emojis, confirmaciones
+
+## 📊 Estructura de Datos
+
+### Productos
 ```json
 {
   "codigo_producto": "PAN-001",
@@ -188,88 +215,191 @@ Los datos se almacenan en formato JSON en los siguientes archivos:
 }
 ```
 
-### 🛍️ Estructura de Pedidos
+### Pedidos
 ```json
 {
   "codigo_pedido": "PED-001",
-  "codigo_cliente": "CLI-001",
-  "fecha_pedido": "2024-03-21 15:30:00",
+  "codigo_cliente": "CL-001",
+  "fecha_pedido": "2024-03-20 10:30:00",
   "estado": "pendiente",
-  "total": 150.00,
+  "total": 25.50,
   "detalles": [
     {
       "numero_linea": 1,
       "codigo_producto": "PAN-001",
-      "cantidad": 2,
+      "cantidad": 3,
       "precio_unidad": 3.50,
-      "subtotal": 7.00
+      "subtotal": 10.50
     }
   ]
 }
 ```
 
-## 📊 Funcionalidades Principales
+### Configuración
+```json
+{
+  "sistema": {
+    "nombre_empresa": "Maison du Pain",
+    "version": "2.0.0",
+    "idioma": "es",
+    "zona_horaria": "America/Bogota"
+  },
+  "inventario": {
+    "stock_minimo": 5,
+    "alertas_automaticas": true,
+    "respaldo_automatico": true
+  }
+}
+```
 
-### 📦 Gestión de Productos
-- 📝 Registro de nuevos productos
-- ✏️ Modificación de productos existentes
-- 🗑️ Eliminación de productos
-- 👀 Visualización de inventario
-- 📈 Control de stock
+## 🔧 Configuración Avanzada
 
-### 🛍️ Gestión de Pedidos
-- 💸 Creación de nuevos pedidos
-- 📋 Modificación de pedidos existentes
-- 🗑️ Cancelación de pedidos
-- 📊 Visualización de pedidos
-- 💰 Cálculo automático de totales
+### Variables de Entorno (Opcional)
+```bash
+export MAISON_PAIN_CONFIG_PATH="/ruta/personalizada/config.json"
+export MAISON_PAIN_DATA_PATH="/ruta/personalizada/datos/"
+export MAISON_PAIN_LOG_LEVEL="INFO"
+```
 
-### 📊 Inventario
-- 🔄 Actualización automática de stock
-- ⚠️ Alertas de stock bajo
-- 📈 Control de inventario en tiempo real
-- 📊 Reportes de inventario
+### Personalización de Colores
+El sistema utiliza la librería Rich para colores. Puedes personalizar:
+- Colores de tablas
+- Estilos de texto
+- Temas de interfaz
 
-## 🤝 Contribución
+## 📈 Reportes Disponibles
 
-Si deseas contribuir a este proyecto, por favor:
+### 1. Reporte de Ventas
+- Total de ventas por período
+- Promedio por pedido
+- Análisis por fecha
+- Tendencias de ventas
 
-1. 🍴 Haz un Fork del proyecto
-2. 🌿 Crea una rama para tu funcionalidad (`git checkout -b feature/nueva-funcionalidad`)
-3. ✏️ Realiza tus cambios
-4. 💾 Haz commit de tus cambios (`git commit -m 'Agrega nueva funcionalidad'`)
-5. 📤 Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
-6. 🔄 Abre un Pull Request
+### 2. Análisis de Inventario
+- Estado del stock
+- Productos con stock bajo
+- Valor del inventario
+- Análisis por categoría
 
-## 👥 Roles del Equipo
+### 3. Productos Más Vendidos
+- Ranking de productos
+- Cantidades vendidas
+- Ingresos por producto
+- Análisis de popularidad
 
-### 🎯 Product Owner
-- Daniel Santiago Vinasco
+### 4. Análisis Financiero
+- Margen de ganancia
+- Costo de ventas
+- Valor del inventario
+- Rentabilidad
 
-### 👨‍💻 Desarrollador
-- Daniel Santiago Vinasco
+## 🛡️ Seguridad y Respaldo
+
+### Sistema de Respaldo
+- **Automático**: Antes de cada guardado
+- **Manual**: Desde el menú principal
+- **Programado**: Limpieza automática de respaldos antiguos
+- **Recuperación**: Restauración desde respaldos
+
+### Validación de Datos
+- Verificación de tipos de datos
+- Validación de rangos
+- Reparación automática de datos corruptos
+- Logs de auditoría
+
+## 🔍 Solución de Problemas
+
+### Problemas Comunes
+
+#### Error: "ModuleNotFoundError: No module named 'rich'"
+```bash
+pip install rich
+```
+
+#### Error: "Permission denied" al guardar
+- Verificar permisos de escritura en el directorio
+- Ejecutar como administrador si es necesario
+
+#### Datos corruptos
+- El sistema intentará reparar automáticamente
+- Usar respaldos si es necesario
+- Verificar logs para más detalles
+
+### Logs de Sistema
+Los logs se guardan en `logs/panaderia_YYYYMMDD.log` con:
+- Operaciones realizadas
+- Errores encontrados
+- Respaldos creados
+- Configuraciones cambiadas
+
+## 🤝 Contribuciones
+
+### Cómo Contribuir
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+### Estándares de Código
+- Usar docstrings para todas las funciones
+- Seguir PEP 8 para estilo de código
+- Incluir tests para nuevas funcionalidades
+- Documentar cambios en el README
+
+## 📝 Changelog
+
+### v2.0.0 (2024-12-19)
+- ✨ **NUEVO**: Sistema de reportes avanzado
+- ✨ **NUEVO**: Configuración personalizable
+- ✨ **NUEVO**: Sistema de respaldo automático
+- ✨ **NUEVO**: Dashboard rápido
+- ✨ **NUEVO**: Validación mejorada de datos
+- ✨ **NUEVO**: Logs de auditoría
+- ✨ **NUEVO**: Exportación de datos
+- 🔧 **MEJORADO**: Interfaz de usuario
+- 🔧 **MEJORADO**: Manejo de errores
+- 🔧 **MEJORADO**: Estructura de archivos
+- 🐛 **CORREGIDO**: Varios bugs menores
+
+### v1.0.0 (2024-03-20)
+- 🎉 Lanzamiento inicial
+- 📦 Gestión básica de productos
+- 📋 Gestión básica de pedidos
+- 💾 Almacenamiento en JSON
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+## 👨‍💻 Autor
+
+**Maison du Pain Development Team**
+- 📧 Email: contacto@maisondepain.com
+- 🌐 Website: https://maisondepain.com
+- 📱 Twitter: @MaisonDuPain
+
+## 🙏 Agradecimientos
+
+- [Rich](https://github.com/Textualize/rich) - Por la excelente librería de interfaz en terminal
+- [Python](https://python.org) - Por ser un lenguaje tan versátil
+- Comunidad de desarrolladores - Por el feedback y sugerencias
+
+## 📞 Soporte
+
+- 🐛 **Reportar Bugs**: [Issues](https://github.com/tu-usuario/Maison-du-Pain/issues)
+- 💡 **Sugerencias**: [Discussions](https://github.com/tu-usuario/Maison-du-Pain/discussions)
+- 📧 **Contacto**: contacto@maisondepain.com
 
 ---
 
-Desarrollado con ❤️ para Maison du Pain
+<p align="center">
+  <strong>¡Gracias por usar Maison du Pain! 🥖</strong>
+</p>
 
-### 📄 Creado Por:
-Este Proyecto fue desarrollado por ***Daniel Santiago Vinasco*** 
-
----
-
-### ✅ ¿Qué incluye este README?
-✔ 📋 Características detalladas del sistema de gestión de panadería  
-✔ 📁 Estructura del proyecto clara y organizada  
-✔ 🖥️ Código del menú principal con opciones intuitivas  
-✔ 📊 Funciones clave como gestión de productos, pedidos e inventario  
-✔ 💾 Estructura de los JSON con ejemplos detallados  
-✔ 🚀 Instalación y uso con pasos claros  
-✔ 🎨 Estética profesional con emojis y formato Markdown limpio  
-
----
-
-- 🔥 **¡Github: https://github.com/DanielSantiagoV !🚀**
+<p align="center">
+  <em>Sistema de Gestión Avanzado v2.0.0</em>
+</p>
 
 
 
